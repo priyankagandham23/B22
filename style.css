@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    /* border:2px solid rgb(65, 47, 47); */
+    background-color: black;
+    justify-content: flex-end;
+padding:5px;
+}
+ a{
+    /* border:2px solid yellowgreen; */
+    margin:5px;
+    /* padding:5px; */
+    color:white;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: none;
+}
+.active{
+    background-color:yellowgreen;
+    padding:5px;
+}
